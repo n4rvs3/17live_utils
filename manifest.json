@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "17Live_utils_extension",
+  "description": "17Live utils extension",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icons.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://17.live/ja/live/*"]
+    }
+  ]
+}
